@@ -2,7 +2,7 @@
 
 ## **1. Resumen del proyecto**  
 
-Este proyecto implementa un modelo de aprendizaje automático basado en una sola neurona para clasificar tumores de mama como benignos o malignos. Posteriormente se aplica PCA a los datos para reducir la complejidad de el conjunto de datos. Por último se comparan ambos modelos y se determina cuál es mejor para un caso real.   
+Este proyecto implementa un modelo de aprendizaje automático basado en una sola neurona para clasificar tumores de mama como benignos o malignos. Posteriormente se aplica PCA a los datos para reducir la complejidad del conjunto de datos. Por último se comparan ambos modelos y se determina cuál es mejor para un caso real.   
 
 El modelo se entrena utilizando el Wisconsin Breast Cancer Dataset, el cual contiene características calculadas a partir de imágenes de biopsias de tumores.  
 
@@ -62,10 +62,10 @@ Se implementó un modelo de clasificación binaria basado en una sola neurona.
 **6. Evaluación del modelo:**  
 El modelo fue evaluado utilizando el conjunto de prueba mediante métricas de clasificación como precisión, recall, especificidad y F1-score.  
 
-**7. Reducción de dimensionalidad mediante PCA**  
+**7. Reducción de dimensionalidad mediante PCA:**  
 Se aplicó PCA a las variables predictivas estandarizadas para reducir la dimensionalidad del dataset. Se seleccionaron los componentes principales que explican al menos el 95% de la varianza total.
 
-Posteriormente se entrena otro modelo usando los componentes principales obtenidos con el PCA y se compara el desempeño de cada modelo. 
+Posteriormente se entrena otro modelo usando los componentes principales obtenidos mediante PCA y se compara el desempeño de cada modelo. 
 
 
 ## **4. Requisitos**  
@@ -84,6 +84,6 @@ El proyecto utiliza Python y las siguientes librerías:
 ## **5. Cómo ejecutar el proyecto**
 
 **1.** Clonar el repositorio usando git clone.  
-**2.** Entrar a la carpeta del proyeco.  
+**2.** Entrar a la carpeta del proyecto.  
 **3.** Abrir el notebook "single-neuron.ipynb".  
 **4.** Correr todas las celdas.  
